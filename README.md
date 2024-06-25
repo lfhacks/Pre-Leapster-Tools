@@ -8,3 +8,10 @@
 More documentaion on the Ax51 can be found here:
 
 https://developer.arm.com/documentation/101655/0961/Ax51-User-s-Guide/Ax51-Introduction
+
+
+# Q&A
+
+Q - "How do I use the MIDI conversion script?"
+
+A - You can't (at least, not yet. Wait for the ROM splitter to release first.)
