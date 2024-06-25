@@ -9,6 +9,18 @@ More documentaion on the Ax51 can be found here:
 
 https://developer.arm.com/documentation/101655/0961/Ax51-User-s-Guide/Ax51-Introduction
 
+# ROM version list
+- 0x0193 - Turbo Twist Spelling and Fact Blaster BaseROMs
+- 0x7F35 - LeapPad BaseROM (Canada)
+- 0x7F49 - Little Touch LeapPad BaseROM
+- 0x7F4F - LeapPad BaseROM (US, might be a revision)
+- 0x7F51 - iQuest Handheld BaseROM
+- 0x7F5B - My First LeapPad BaseROM (international)
+- 0x7F5C - My First LeapPad, Vocabulator and Turbo Extreme BaseROMs
+
+Potentially bad dumps with unconfirmed version numbers:
+- Turbo Twist Math (the RIB is at the wrong offset or this system works entirely differently to the spelling one)
+- Turbo Twist Brain Quest (the RIB is at the wrong offset or this system works differently to the other Turbo Twists)
 
 # Q&A
 
