@@ -43,7 +43,7 @@ for file_path in files:
                 lastTrack = syn.tell()
                 track = mido.MidiTrack()
                 mid.tracks.append(track)
-                track.append(mido.MetaMessage('set_tempo', tempo=1800000))
+                track.append(mido.MetaMessage('set_tempo', tempo=1900000))
                 syn.seek(trackoffset)
                 currentSynTrack += 1
                 current_bend = 8192
