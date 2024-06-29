@@ -137,7 +137,7 @@ def parseSYNTable(file, offset):
 def parseRIBTable(file):
     with open(file, "rb") as rom:
         rom.seek(0x10100) #The RIB table always starts here in a good dump
-        ROMVer = struct.unpack(">H", rom.read(2))[0] #Some ROMs seem to have stuff get moved around in the RIB table. Maybe the ROM version has something to do with this?
+        ROMVer = struct.unpack(">H", rom.read(2))[0]
         
         RibID = rom.read(1)[0]
         Reserved1 = rom.read(1)
