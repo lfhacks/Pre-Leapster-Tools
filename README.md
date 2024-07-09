@@ -1,3 +1,5 @@
+Feel free to reimplement, borrow or use this documentation for your own research and tools.
+
 # To-do
 - Make a ROM splitter now that the offsets have been figured out
 - Document how offsets work on the LeapPad and all related (pre-Leapster) systems
