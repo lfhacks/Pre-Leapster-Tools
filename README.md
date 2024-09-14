@@ -25,3 +25,7 @@ Potentially bad dumps with unconfirmed version numbers:
 # How do offsets in the asset tables work?
 They use the start offset of the table as the base address. Add the start offset to the pointer to get the true offset in the ROM.
 
+# LeapPad soundfont
+This is the soundfont you'll want to use on LeapPad MIDIs (the instruments aren't identical to the Leapster ones):
+
+[LeapPad.zip](https://github.com/user-attachments/files/17003961/LeapPad.zip)
